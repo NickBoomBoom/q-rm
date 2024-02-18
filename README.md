@@ -1,7 +1,7 @@
-yrm -- yarn,npm,pnpm registry manager
+q-rm -- yarn,npm,pnpm registry manager
 ===
 
-`yrm` can help you easy and fast switch between different npm registries,
+`q-rm` can help you easy and fast switch between different npm registries,
 now include: `npm`, `cnpm`, `taobao`, `nj(nodejitsu)`, `rednpm`, `yarn`.
 
 > **Yarn,npm,pnpm is now supported**
@@ -11,12 +11,12 @@ now include: `npm`, `cnpm`, `taobao`, `nj(nodejitsu)`, `rednpm`, `yarn`.
 ## Install
 
 ```
-$ npm install -g yrm2
+$ npm install -g q-rm
 ```
 
 ## Example
 ```
-$ yrm ls
+$ qrm ls
 
 * npm -----  https://registry.npmjs.org/
   cnpm ----  http://r.cnpmjs.org/
@@ -29,7 +29,7 @@ $ yrm ls
 ```
 
 ```
-$ yrm use cnpm  //switch registry to cnpm
+$ qrm use cnpm  //switch registry to cnpm
 
     Registry has been set to: http://r.cnpmjs.org/
 
@@ -38,7 +38,7 @@ $ yrm use cnpm  //switch registry to cnpm
 ## Usage
 
 ```
-Usage: yrm [options] [command]
+Usage: qrm [options] [command]
 
   Commands:
 

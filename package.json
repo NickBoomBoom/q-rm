@@ -1,16 +1,16 @@
 {
-  "name": "yrm2",
-  "version": "2.0.0",
+  "name": "q-rm",
+  "version": "1.0.0",
   "description": "NPM registry manager can help you easy and fast switch between different npm registries, now include: cnpm, taobao, nj(nodejitsu), rednpm, edunpm, support yarn, npm, pnpm",
   "bin": {
-    "yrm": "./cli.js"
+    "qrm": "./cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/NickBoomBoom/yrm2.git"
+    "url": "git://github.com/NickBoomBoom/q-rm.git"
   },
   "scripts": {
-    "star": "npm star yrm"
+    "star": "npm star q-rm"
   },
   "keywords": [
     "NPM",
@@ -23,16 +23,16 @@
   ],
   "author": "NickBoomBoom",
   "license": "MIT",
-  "homepage": "https://github.com/NickBoomBoom/yrm2",
+  "homepage": "https://github.com/NickBoomBoom/q-rm",
   "dependencies": {
-    "async": "^1.5.2",
-    "commander": "^2.9.0",
+    "async": "^3.2.5",
+    "commander": "^2.20.3",
     "extend": "^3.0.0",
-    "ini": "^1.1.0",
+    "ini": "^1.3.8",
     "node-echo": "^0.1.1",
-    "npm": "^3.10.3",
+    "npm": "^3.10.10",
     "only": "0.0.2",
-    "open": "0.0.5",
-    "request": "^2.72.0"
+    "open": "10.0.3",
+    "request": "^2.88.2"
   }
 }
