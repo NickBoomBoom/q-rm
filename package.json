@@ -10,8 +10,7 @@
     "url": "git://github.com/NickBoomBoom/qrm.git"
   },
   "scripts": {
-    "push": "npm publish --access public",
-    "star": "npm star @nick/qrm"
+    "push": "npm publish --access public"
   },
   "keywords": [
     "NPM",
