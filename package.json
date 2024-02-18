@@ -1,5 +1,5 @@
 {
-  "name": "q-rm",
+  "name": "@nick/qrm",
   "version": "1.0.0",
   "description": "NPM registry manager can help you easy and fast switch between different npm registries, now include: cnpm, taobao, nj(nodejitsu), rednpm, edunpm, support yarn, npm, pnpm",
   "bin": {
