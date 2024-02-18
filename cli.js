@@ -10,12 +10,12 @@ var open = require('open');
 var async = require('async');
 var request = require('request');
 var only = require('only');
+var {exec} = require('child_process')
 
 var registries = require('./registries.json');
 var PKG = require('./package.json');
 var YRMRC = path.join(process.env.HOME, '.yrmrc');
 var YARNRC = path.join(process.env.HOME, '.yarnrc');
-
 
 program
     .version(PKG.version);
@@ -126,6 +126,24 @@ function onUse(name) {
                 ]);
             })
         });
+
+        exec('pnpm -v', (err) => {
+            if (err)  {
+                return printMsg([
+                    '', '   Not installed pnpm'
+                ])
+            };
+            exec('pnpm config set registry' + registry.registry, (err) => {
+                if (err) {
+                    return exit(err);
+                }
+                printMsg([
+                    '','   PNPM Registry has been set to: ' +  registry.registry, ''
+                ])
+            }) 
+          })
+
+
     } else {
         printMsg([
             '', '   Not find registry: ' + name, ''
@@ -268,5 +286,5 @@ function line(str, len) {
 module.exports = {
     getCurrentRegistry : getCurrentRegistry,
     getCustomRegistry : getCustomRegistry,
-    getAllRegistry: getAllRegistry
+    getAllRegistry: getAllRegistry,
 }

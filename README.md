@@ -1,15 +1,17 @@
-yrm -- YARN registry manager
+yrm -- yarn,npm,pnpm registry manager
 ===
-
-[![NPM version][npm-image]][npm-url]
 
 `yrm` can help you easy and fast switch between different npm registries,
 now include: `npm`, `cnpm`, `taobao`, `nj(nodejitsu)`, `rednpm`, `yarn`.
 
+> **Yarn,npm,pnpm is now supported**
+
+> This repo is forked from the original yrm project. 
+
 ## Install
 
 ```
-$ npm install -g yrm
+$ npm install -g yrm2
 ```
 
 ## Example
@@ -67,13 +69,6 @@ Usage: yrm [options] [command]
 
 When you use an other registry, you can not use the `publish` command.
 
-## TODO
-
-* When publish proxy to npm official registry
-
 ## LICENSE
-MIT
-
-
-[npm-image]: https://img.shields.io/npm/v/yrm.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/yrm
+MIT 
+ 
