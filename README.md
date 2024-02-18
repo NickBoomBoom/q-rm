@@ -1,7 +1,7 @@
-q-rm -- yarn,npm,pnpm registry manager
+qrm -- yarn,npm,pnpm registry manager
 ===
 
-`q-rm` can help you easy and fast switch between different npm registries,
+`qrm` can help you easy and fast switch between different npm registries,
 now include: `npm`, `cnpm`, `taobao`, `nj(nodejitsu)`, `rednpm`, `yarn`.
 
 > **Yarn,npm,pnpm is now supported**
@@ -11,7 +11,7 @@ now include: `npm`, `cnpm`, `taobao`, `nj(nodejitsu)`, `rednpm`, `yarn`.
 ## Install
 
 ```
-$ npm install -g q-rm
+$ npm install -g @nick-qi/qrm
 ```
 
 ## Example

@@ -1,7 +1,6 @@
 {
-  "name": "@nick/qrm",
+  "name": "@nick-qi/qrm",
   "version": "1.0.0",
-  "private": false,
   "description": "NPM registry manager can help you easy and fast switch between different npm registries, now include: cnpm, taobao, nj(nodejitsu), rednpm, edunpm, support yarn, npm, pnpm",
   "bin": {
     "qrm": "./cli.js"
@@ -11,6 +10,7 @@
     "url": "git://github.com/NickBoomBoom/qrm.git"
   },
   "scripts": {
+    "push": "npm publish --access public",
     "star": "npm star @nick/qrm"
   },
   "keywords": [
