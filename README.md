@@ -14,6 +14,14 @@ now include: `npm`, `cnpm`, `taobao`, `nj(nodejitsu)`, `rednpm`, `yarn`.
 $ npm install -g @nick-qi/qrm
 ```
 
+### Mac 
+  ```
+    sudo npm install -g @nick-qi/qrm
+  ```
+
+### Windows
+    Install using a console with administrator privileges.
+
 ## Example
 ```
 $ qrm ls
