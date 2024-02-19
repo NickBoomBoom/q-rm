@@ -1,6 +1,6 @@
 {
   "name": "@nick-qi/qrm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NPM registry manager can help you easy and fast switch between different npm registries, now include: cnpm, taobao, nj(nodejitsu), rednpm, edunpm, support yarn, npm, pnpm",
   "bin": {
     "qrm": "./cli.js"
