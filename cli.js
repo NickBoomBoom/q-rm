@@ -133,7 +133,7 @@ function onUse(name) {
                     '', '   Not installed pnpm'
                 ])
             };
-            exec('pnpm config set registry' + registry.registry, (err) => {
+            exec('pnpm config set registry ' + registry.registry, (err) => {
                 if (err) {
                     return exit(err);
                 }
