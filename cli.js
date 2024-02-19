@@ -119,7 +119,6 @@ function onUse(name) {
 
             npm.commands.config(['set', 'registry', registry.registry], function (err, data) {
                 if (err) return exit(err);
-                console.log('                        ');
                 var newR = npm.config.get('registry');
                 printMsg([
                     '', '   NPM Registry has been set to: ' + newR, ''
